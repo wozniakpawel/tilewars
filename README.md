@@ -32,13 +32,13 @@ The repository contains the following files:
 - package.json will help you install all the required packages with npm
 
 ## TODO
-- [] a proper guide on how to set up node.js environment and host the game,
-- [] general code clean-up - it's a real spaghetti at the moment,
-- [] too many unnecessary arrays and objects scattered around the code - they were introduced as temporary workarounds, and I never got back to clean them up,
-- [] more memory efficient algorithms,
-- [] remove references to objects no longer in use - for example, clean up a game room after the game is finished
-- [] add an option to rejoin the game
-- [] after the code is relatively clean, it would be good to move it to a proper framework like react.js
+- [ ] a proper guide on how to set up node.js environment and host the game,
+- [ ] general code clean-up - it's a real spaghetti at the moment,
+- [ ] too many unnecessary arrays and objects scattered around the code - they were introduced as temporary workarounds, and I never got back to clean them up,
+- [ ] more memory efficient algorithms,
+- [ ] remove references to objects no longer in use - for example, clean up a game room after the game is finished
+- [ ] add an option to rejoin the game
+- [ ] after the code is relatively clean, it would be good to move it to a proper framework like react.js
 
 I probably won't ever bother with this project again, though :)
 
