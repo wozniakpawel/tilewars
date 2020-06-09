@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Tilewars</title>
+
+<meta charset="UTF-8">
+<meta name="description" content="A simple tile-based JavaScript game using socket.io">
+<meta name="theme-color" content="#1BABBE">
+<meta name="msapplication-navbutton-color" content="#1BABBE">
+<meta name="apple-mobile-web-app-status-bar-style" content="#1BABBE">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <div class="row">
+    <div class="main">
+      <div class="game">
+        <div class="game" id="board"></div>
+        <div class="game" id="selectionPanel"></div>
+        <div class="game" id="userPanel"></div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="tilewars.js"></script>
+    </div>
+  </div>  
+</body>
+</html>
